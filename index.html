@@ -3,12 +3,31 @@
 
 <head>
 
-  <meta charset="utf-8">
+  <!-- COMMON TAGS -->
+<meta charset="utf-8">
+<title>Testing Title</title>
+<!-- Search Engine -->
+<meta name="description" content="Testing Description">
+<meta name="image" content="http://tiffanyleungi.github.io/startbootstrap-grayscale/img/hihihi.jpg">
+<!-- Schema.org for Google -->
+<meta itemprop="name" content="Testing Title">
+<meta itemprop="description" content="Testing Description">
+<meta itemprop="image" content="http://tiffanyleungi.github.io/startbootstrap-grayscale/img/hihihi.jpg">
+<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+<meta name="og:title" content="Testing Title">
+<meta name="og:description" content="Testing Description">
+<meta name="og:image" content="http://tiffanyleungi.github.io/startbootstrap-grayscale/img/hihihi.jpg">
+<meta name="og:url" content="http://tiffanyleungi.github.io/startbootstrap-grayscale">
+<meta name="og:site_name" content="Demo Site">
+<meta name="og:type" content="website">
+
+
+  
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
+
   <meta name="author" content="">
 
-  <title>Tiffany Greyscale</title>
+
 
 
 
@@ -25,7 +44,7 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
 </head>
 
 <body id="page-top">
@@ -64,10 +83,10 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">Goodnight!</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start
-          Bootstrap.</h2>
-        <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+        <h1 class="mx-auto my-0 text-uppercase">Lonely Christmas</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Are you excited? Are you ready for x'mas?
+          </h2>
+        <a href="#about" class="btn btn-primary js-scroll-trigger">YES!!!</a>
       </div>
     </div>
   </header>
@@ -77,11 +96,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right
-            now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open
-            source, and you can use it for any purpose, personal or commercial.</p>
+          <h2 class="text-white mb-4">Sing together!!!</h2>
+          <p class="text-white-50">I don't want a lot for Christmas, there is just one thing I need.
+              I don't care about the presents underneath the 
+              
+            <a href="http://startbootstrap.com/template-overviews/grayscale/">Christmas tree</a>. I just want you for my own,
+            more than you could ever know
+            Make my wish come true oh~~~
+            All I want for Christmas is you.</p>
         </div>
       </div>
       <img src="img/ipad.png" class="img-fluid" alt="">
@@ -303,92 +325,106 @@
   <script type="text/javascript" src="js/slick.min.js"></script>
 
   <script type="text/javascript">
-    $(document).ready(function(){
+    $(document).ready(function () {
       $('.slider').slick({
         autoplay: true,
         dots: true,
         prevArrow: '<button type="button" class="slick-buttons slick-prev"><span>Previous</span></button>',
         nextArrow: '<button type="button" class="slick-buttons slick-next"><span>Next</span></button>',
-        customPaging: function(slick,index) {
-          return '<button><span>' + (index+1) + '</span></button>';
+        customPaging: function (slick, index) {
+          return '<button><span>' + (index + 1) + '</span></button>';
         }
       });
     });
   </script>
 
-<style>.slick-dots{
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    width: 100%;
-    list-style: none;
-    text-align: center;
-    margin: 0;
-  }
-  .slick-dots li{
-    display: inline-block;
-  }
-  .slick-dots li button{
-    outline: none;
-    display: inline-block;
-    background-color: transparent;
-    border-width: 0;
-  }
-  .slick-dots li button span{
-    display: none;
-  }
-  .slick-dots li button:before{
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    content: '';
-    background-color: #ffffff;
-  }
-  .slick-dots li.slick-active button:before{
-    background-color: #000000;
+  <style>
+    .slick-dots {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      width: 100%;
+      list-style: none;
+      text-align: center;
+      margin: 0;
+    }
 
-    .slick-buttons{
+    .slick-dots li {
+      display: inline-block;
+    }
+
+    .slick-dots li button {
+      outline: none;
+      display: inline-block;
       background-color: transparent;
       border-width: 0;
-    
-    .slick-buttons{
-      position: absolute;
-      top: 50%;
-      transform: translate3d(0, -50%, 0);
-      z-index: 2;
     }
-    .slick-buttons span{
+
+    .slick-dots li button span {
       display: none;
     }
-    .slick-buttons.slick-prev:before,
-    .slick-buttons.slick-next:before{
-      display: block;
-      width: 20px;
-      height: 20px;
-      border-color: #ffffff;
+
+    .slick-dots li button:before {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
       content: '';
+      background-color: #ffffff;
     }
-    .slick-buttons.slick-prev{
-      left: 20px;
+
+    .slick-dots li.slick-active button:before {
+      background-color: #000000;
     }
-    .slick-buttons.slick-prev:before{
-      border-top-width: 8px;
-      border-left-width: 8px;
-      border-top-style: solid;
-      border-left-style: solid;
-      transform: rotate(-45deg);
+
+    .slick-buttons {
+      background-color: transparent;
+      border-width: 0;
     }
-    .slick-buttons.slick-next:before{
-      border-bottom-width: 8px;
-      border-right-width: 8px;
-      border-bottom-style: solid;
-      border-right-style: solid;
-      transform: rotate(-45deg);
-    }
-    .slick-buttons.slick-next{
-      right: 20px;
-    } 
+
+      .slick-buttons {
+        position: absolute;
+        top: 50%;
+        transform: translate3d(0, -50%, 0);
+        z-index: 2;
+      }
+
+      .slick-buttons span {
+        display: none;
+      }
+
+      .slick-buttons.slick-prev:before,
+      .slick-buttons.slick-next:before {
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-color: #ffffff;
+        content: '';
+      }
+
+      .slick-buttons.slick-prev {
+        left: 20px;
+      }
+
+      .slick-buttons.slick-prev:before {
+        border-top-width: 8px;
+        border-left-width: 8px;
+        border-top-style: solid;
+        border-left-style: solid;
+        transform: rotate(-45deg);
+      }
+
+      .slick-buttons.slick-next:before {
+        border-bottom-width: 8px;
+        border-right-width: 8px;
+        border-bottom-style: solid;
+        border-right-style: solid;
+        transform: rotate(-45deg);
+      }
+
+      .slick-buttons.slick-next {
+        right: 20px;
+      }
   </style>
 
 </body>
