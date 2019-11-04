@@ -347,7 +347,49 @@
   }
   .slick-dots li.slick-active button:before{
     background-color: #000000;
-  }</style>
+
+    .slick-buttons{
+      background-color: transparent;
+      border-width: 0;
+    
+    .slick-buttons{
+      position: absolute;
+      top: 50%;
+      transform: translate3d(0, -50%, 0);
+      z-index: 2;
+    }
+    .slick-buttons span{
+      display: none;
+    }
+    .slick-buttons.slick-prev:before,
+    .slick-buttons.slick-next:before{
+      display: block;
+      width: 20px;
+      height: 20px;
+      border-color: #ffffff;
+      content: '';
+    }
+    .slick-buttons.slick-prev{
+      left: 20px;
+    }
+    .slick-buttons.slick-prev:before{
+      border-top-width: 8px;
+      border-left-width: 8px;
+      border-top-style: solid;
+      border-left-style: solid;
+      transform: rotate(-45deg);
+    }
+    .slick-buttons.slick-next:before{
+      border-bottom-width: 8px;
+      border-right-width: 8px;
+      border-bottom-style: solid;
+      border-right-style: solid;
+      transform: rotate(-45deg);
+    }
+    .slick-buttons.slick-next{
+      right: 20px;
+    } 
+  </style>
 
 </body>
 
