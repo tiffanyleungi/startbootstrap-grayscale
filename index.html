@@ -181,6 +181,25 @@
         </div>
       </div>
 
+      <style>
+          .project-slider {
+            height: 100%;
+            min-height: 400px;
+          }
+          .project-slider .slick-list,
+          .project-slider .slick-track,
+          .project-slider .slick-slide,
+          .project-slider .slick-slide > div {
+            height: 100%;
+          }
+          .project-slider .image-bg {
+            height: 100%;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+        </style>
+
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
@@ -213,7 +232,7 @@
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">Today</h4>
-                <p class="mb-0 text-white-50">Wow!!!It's snowing again!!!!!</p>
+                <p class="mb-0 text-white-50">Wow!!! It's snowing again!!!!!</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -242,8 +261,11 @@
         <!-- Project Four Row -->
         <div class="row justify-content-center no-gutters">
           <div class="col-lg-6">
-            <img class="img-fluid" src="img/d.jpg" alt="">
-          </div>
+     <div class="slider project-slider">
+       <div class="image-bg" style="background-image:url(img/c.jpg);"></div>
+       <div class="image-bg" style="background-image:url(img/d.jpg);"></div>
+     </div>   
+    </div>
           <div class="col-lg-6 order-lg-first">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
